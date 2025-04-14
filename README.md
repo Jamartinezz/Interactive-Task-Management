@@ -1,6 +1,6 @@
 # Interactive Task Management
 
-Hey there! This is my second coding project for my Web Development class. I made this cool to-do list that lets you drag tasks between different categories. Pretty neat, right? 😎
+Hey there! This is my second coding project for my Web Development Program. I made this cool to-do list that lets you drag tasks between different categories. Pretty neat, right? 😎
 
 ## What it does
 
