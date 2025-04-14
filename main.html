@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Drag and Drop To-Do List</h1>
+    
+    <div class="task-input-container">
+        <input type="text" id="taskInput" class="task-input" placeholder="Enter a new task...">
+        <button id="addBtn" class="add-btn">Add Task</button>
+    </div>
+    
+    <div class="board-container">
+        <div class="board task-board" id="taskBoard">
+            <div class="board-title">Tasks</div>
+            <!-- Tasks will be added here -->
+        </div>
+        
+        <div class="board completed-board" id="completedBoard">
+            <div class="board-title">Completed</div>
+            <!-- Completed tasks will be moved here -->
+        </div>
+        
+        <div class="board tomorrow-board" id="tomorrowBoard">
+            <div class="board-title">Do Tomorrow</div>
+            <!-- Tasks for tomorrow will be moved here -->
+        </div>
+    </div>
+    
+    <!-- Modal for task notes -->
+    <div id="noteModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">Task Notes</div>
+                <button class="close-modal">&times;</button>
+            </div>
+            <textarea id="noteContent" class="note-content" placeholder="Write your notes here..."></textarea>
+            <button id="saveNote" class="save-note">Save Notes</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
